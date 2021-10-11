@@ -13,8 +13,8 @@ st.markdown("If you like this project, please consider visiting my website for m
 
 form = st.form(key='exportBusinessReviewForm')
 
-emailId = form.text_input('Enter DataForSEO Email',value='')
-passwordApi = form.text_input('Enter DataForSEO API Password',value='')
+emailId = "yourEmailHere"
+passwordApi = "yourPasswordHere"
 
 keyword = form.text_input('Enter Business Name (ex: Sweet Spot PR)',value='')
 location_name = form.text_input('Enter Business Location (ex: Berlin, Germany)',value='')
